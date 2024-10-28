@@ -16,6 +16,7 @@ My stack support a basics functions as:
 To add this repository you need to:
 ```bash
 git clone https://github.com/ImishgunI/Stack.git
+cd Stack
 ```
 
 Okey, now you already can use this code.
@@ -33,7 +34,7 @@ ar rcs libstack.a stack.o
 ```
 Write a simple code:
 ```c
-#include "stack.h"
+#include "./src/stack.h"
 
 int main() {
     stack* myStack = NULL;
