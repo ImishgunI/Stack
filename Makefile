@@ -4,7 +4,7 @@ CC = gcc
 CFLAGS = -Wall -Werror -Wextra -std=c11
 BUILD_PATH = ./build/
 STACK_FILES = ./src/stack.c
-TEST_FILE=./src/main.c
+TEST_FILE=./src/test.c
 
 stack_push: stack1.o test1.o | $(BUILD_PATH)
 	$(CC) $(CFLAGS) $^ -o $(BUILD_PATH)Quest_1
