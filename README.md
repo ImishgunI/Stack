@@ -40,8 +40,8 @@ int main() {
     stack* myStack = NULL;
     push(&myStack, 10);
     push(&myStack, 20);
-    print_stack(myStack);
-    clear_stack(&myStack);
+    printf("%d", top(myStack));
+    clean(&myStack);
     return 0;
 }
 ```
