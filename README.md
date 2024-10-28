@@ -34,6 +34,8 @@ ar rcs libstack.a stack.o
 ```
 Write a simple code:
 ```c
+#include <stdio.h>
+
 #include "stack.h"
 
 int main() {
