@@ -34,7 +34,7 @@ ar rcs libstack.a stack.o
 ```
 Write a simple code:
 ```c
-#include "./src/stack.h"
+#include "stack.h"
 
 int main() {
     stack* myStack = NULL;
